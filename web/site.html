@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Solution</title>
+</head>
+<body>
+
+<p>First Paragraph</p>
+
+<h2>Heading 2</h2>
+<p>Second Paragraph</p>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h1>Heading 1</h1>
+
+
+
+
+<div>
+    <p>Third Paragraph inside div</p>
+</div>
+
+<script>
+    // Select all headings (h1 to h6)
+    let headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+    for (let i = 0; i < headings.length; i++) {
+        headings[i].style.color = "blue";
+        headings[i].style.fontSize = "30px";
+    }
+
+    // Select all paragraphs
+    let paragraphs = document.querySelectorAll("p");
+
+    for (let i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.color = "red";
+        paragraphs[i].style.backgroundColor = "orange";
+    }
+</script>
+
+</body>
+</html>
